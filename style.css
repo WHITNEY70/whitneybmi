@@ -1,0 +1,212 @@
+* {
+    background-color: aliceblue;
+    
+}
+
+.container {
+    border: 10px solid #005c78ef;
+    width: 100%;
+    height: 900PX;
+    
+    
+}
+.arrow {
+    color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.arrow-2 {
+    color: bisque;
+    font-size: 35px;
+}
+.logo {
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900PX;
+    
+}
+.images-container {
+    width: 80%;
+    position: relative;
+    left: 08%;
+    border:10px solid #006989;
+    border-radius: 5%;
+    height: 700PX;
+    
+
+}
+.bmi-container {
+    position: absolute;
+    width: 40%;
+    background-color: azure;
+    top: 20%;
+    left: 30%;
+    height: 400PX;
+    align-items: center;
+    color:  #543310;
+    text-align: center;
+    background-color: aliceblue;
+    border: solid rgba(0, 0, 0, 0.105);
+    border-radius: 4px;
+}
+
+.bmi-container-logo {
+    font-size: 30px;
+    font-weight: 900px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bmi-container-desc { 
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+#bmi-calculator {
+    position: absolute;
+    top: 70%;
+    align-items: center;
+    text-align: center;
+    left: 23%;
+    background-color: rgba(255, 217, 0, 0.096);
+    height: 50px;
+    width: 50%;
+    border:solid rgba(255, 217, 0, 0.292) ;
+    border-radius: 6px;
+}
+.bmi-container .form {
+    width: 100%;
+}
+.bmi-container .form input {
+    display: block;
+    font-size: 13px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    border: solid 0.1px #C39898;
+    width: 100%;
+    margin: 20px 0px;
+    text-align:justify ;
+    letter-spacing: 0.5px;
+    background-color: #DBB5B5;
+    color: #543310;
+    font-weight: 500;
+    height: 30%;
+    
+
+}
+.bmi-container .form input :focus {
+    outline: none;
+}
+
+.bmi-container .form input[type="submit"]{
+    background-color: rgba(218, 165, 32, 0.527);
+    font-size: 20px;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    height: 15%;
+    cursor: pointer;
+    transition: 0.5s all;
+
+
+}
+
+.bmi-container .form input[type="submit"]:hover{
+    background-color: #C39898;
+}
+.result {
+    position: absolute;
+    background: white;
+    padding: 50px 100px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: white ;
+    top: 0%;
+    height: 75%;
+    width: 52%;
+    display: none;
+
+}
+
+.some-text {
+    color: #543310;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: #C39898;
+    position: absolute;
+    top: 2%;
+}
+
+.result .bmi-score {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    background-color: #C39898;
+    justify-content: center;
+    align-items:center ;
+    border:3px solid chocolate ;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    
+}
+.result .bmi-text {
+    margin:  20px 0px;
+    background-color: #C39898;
+    position: absolute;
+    top: 40%;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
+.result .close-btn {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #C39898;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    cursor: pointer;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
